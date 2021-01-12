@@ -1,5 +1,15 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <tab-bar>
+      <tab-bar-item>
+        <img src="" alt="" />
+        <div></div>
+      </tab-bar-item>
+      <tab-bar-item></tab-bar-item>
+      <tab-bar-item></tab-bar-item>
+      <tab-bar-item></tab-bar-item>
+    </tab-bar>
+  </div>
 </template>
 
 <script>
@@ -10,5 +20,5 @@ export default {
 </script>
 
 <style>
-@import ".\assets\css\base.css";
+@import "./assets/css/base.css";
 </style>

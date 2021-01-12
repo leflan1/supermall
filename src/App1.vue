@@ -1,8 +1,9 @@
 <template>
-  <div id="app"></div>
+  <div></div>
 </template>
 
 <script>
+import TabBar from "./components/common/tabbar/TabBar";
 export default {
   name: "App",
   components: {},
@@ -10,5 +11,5 @@ export default {
 </script>
 
 <style>
-@import ".\assets\css\base.css";
+@import "./assets/css/base.css";
 </style>
